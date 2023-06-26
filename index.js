@@ -24,7 +24,7 @@
     <img src=" ${imageLink}" >
       <p>Name: ${firstName}</p>
       <p>Email: ${email}</p>
-      Website link: <a href="${website}">Website Link: ${website}</p>
+      Website link: <a href="${website}">${website}</a>
       
       <p>Gender: ${genderValue}</p>
       <p>Skills: ${selectedSkills}</p>
