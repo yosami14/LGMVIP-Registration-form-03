@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  padding: 40px;
+}
+.reg {
+  width: 50%;
+  padding-left: 4%;
+}
+
+.display {
+  width: 50%;
+}
+
+/* Add margin to all labels and inputs */
+input {
+  margin: 20px 15px 20px;
+}
+
+/* Adjust image display */
+.display img {
+  max-width: 100%;
+  max-width: 50%;
+}
