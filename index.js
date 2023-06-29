@@ -4,7 +4,7 @@ function displayInputs() {
   var website = document.getElementById("website").value;
   var imageLink = document.getElementById("imageLink").value;
   var gender = document.querySelector('input[name="gender"]:checked');
-  var genderValue = gender ? gender.getAttribute("value") : '';
+  var genderValue = gender ? gender.id : '';
 
   var skills = document.querySelectorAll('input[name="skill"]:checked');
   var selectedSkills = "";
