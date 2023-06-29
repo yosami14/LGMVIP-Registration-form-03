@@ -1,4 +1,5 @@
 .container {
+  background: #d1cbc1;
   display: flex;
   justify-content: center;
   align-items: center;
